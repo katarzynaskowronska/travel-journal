@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a:hover {
+  color: black;
+}
+
+.card {
+  padding: 20px;
+  display: flex;
+}
+
+.card--image {
+  width: 300px;
+  border-radius: 10%;
+}
+
+.card--data {
+  padding: 20px;
+}
+
+.card--location {
+  display: flex;
+  align-items: center;
+}
+
+.card--pin {
+  height: 24px;
+}
+
+.card--country {
+  letter-spacing: .2rem;
+}
+
+.card--maps {
+  font-size: 14px;
+  color: darkgray;
+  margin-left: 20px;
+}
+
+.card--title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.card--date {
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.card--description {
+  margin-top: 5px;
+}
+
